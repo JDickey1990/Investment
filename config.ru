@@ -8,5 +8,8 @@ end
 use Rack::MethodOverride
 
 #mount other controllers with 'use'
+use CryptoController
+use UsersController
 run ApplicationController
+
 
